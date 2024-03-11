@@ -1,85 +1,170 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
- 
-<head>
 
-    <title>My_project</title>
-  <link rel="stylesheet" href="CSS\style.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume</title>
+	<link rel="stylesheet" href="CSS/style.css">
+
 </head>
-   <center>
+
+<script>
+	function nav() {
+    document.getElementById('side').style.cssText = 'visibility:visible';
+    document.getElementById('nav-bt').style.cssText = 'visibility:hidden';
+    document.getElementById('nav-cl').style.cssText = 'visibility:visible' ;
+  }
+
+  function Close() {
+    document.getElementById('side').style.cssText = 'visibility:hidden';
+    document.getElementById('nav-cl').style.cssText = 'visibility:hidden';
+    document.getElementById('nav-bt').style.cssText = 'visibility:visible';
+  }
+
+</script>
+
+<style>
+	body {
+		background-color: #f1f1f1;
+		margin: 0px;
+		padding: 0px;
+		font-family: 'nunito', sans-serif;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	ul li {
+		margin-bottom: 10px;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	ul ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+</style>
+
 <body>
 
-      <h1>Gopinath </h1>
-      <table cellspacing="30">
-        <tr>
-      <td><img id="image" src="images/gopi.jpg" alt="my profile picture"></td>
-    
-         <td><h4>S/O M SAKTHIVEL,5/18/63,Madhaiyan Nagar,Kulaiyur/Gonur(Post),Salem District-636404.</h4>
-          <h3>🔗Linkedln:<a href="https://www.linkedin.com/in/gopinath-sakthivel-b53964224">https://www.linkedin.com/in/gopinath-sakthivel-b53964224 </a> </h3> 
-          <h3>💌Email:<a href="mailto:gopinath@240803@gmail.com">gopinath240803@gmail.com </a> </h3>
-          <h3>🧑‍💻GitHub:<a href="https://github.com/Gopinath2408">https://github.com/Gopinath2408 </a> </h3> 
-           
-           <p><em>Hello Everyone,I am a student at<strong><a href="https://ksrct.ac.in/"> K.S.Ranagasamy college of technology</a></strong>.</em></p> 
-      <p> Which has been located in <strong> Tiruchengode </strong></p></td>
-      <br></tr>
-      </table>
-    <hr size="1" noshade><br>
-     
-    <h1>School life</h1>
-    <p>click below link to see about my schooling</p>
-    <img src="images/malco-2.jpg"><br>
-      <a href="school life.html">MALCO VIDYALAYA</a>
-      <br>
-      <br>
-      <br>
+	<div id="main">
+		<div id="side">
+			<div id="side-bar">
+				<div class="nav-bar">
+					<button id="nav-bt" onclick="nav()"><img src="images/person.svg"></button>
+                    </div>
 
-      <hr size="1"noshade><br>
+                        <div class="nav-bar">
+                        <button id="nav-cl" onclick="Close()"><img src="images/x-circle (2).svg"></i></button>
+                        </div>
 
-      <h1>Contact</h1>
-      <a href="contact.html"a>My_details</a>
-       <br>
-       <br>
-       <br>
-      <hr size="1"noshade>
-      <h1>Achivements</h1>
-    
-        <p>I had Completed the intership on IOT</p>
-        <p>I had won Speech competition.</p>
-        
-       <br>
-       <br>
-       <br>
+            <img id="image" src="images/gopi.jpg" alt="my profile picture">
+            <h3>CAREER OBJECTIVES</h3>
+            <h4 id="carrier" >To make myself adopted to any kind of workspace with the help of my communicative
+            skills and to apply all the technical skills obtained by me to solve any real time crisis</h4>
+            <h4>PERSONAL PROFILE</h4>
+            <h4>Date of Birth : 24.08.2003</h4>
+            <h4>Age :20</h4>
+            <h4>Hobbies : Listening to music,Watching movies, Cricket,Gardening</h4>
+            <h4>Language known : Tamil and English.</h4>
+
+        </div>
+        </div>
+
+
+    <div id="content">
+
+      <div>
+           <h1>Gopinath</h1>
+              <p>5/18/63, Madhaiyan Nagar, Kulaiyur/Gonur(PO)
+                Mettur(TK) Salem – 636 404.<p>
+                <p>Email-Id :<a href="mailto:gopinath240803@gmail.com">gopinath240803@gmail.com</a></p>
+                <p>GitHub :<a href="https://github.com/Gopinath2408">https://github.com/Gopinath2408</a></p>
+               <p>LinkedIn :<a href=" https://www.linkedin.com/in/gopinath-sakthivel-b53964224">
+                https://www.linkedin.com/in/gopinath-sakthivel-b53964224</a></p>
+                <p>Phone No :9994863872</p>
+      </div>
+
 
       <hr size="1" noshade><br>
-      <h1>Skills</h1>
-        <table border="1">
-        <tr>
-      <td><table cellspacing="10">
-        
-        <tr>
-            <td>C programming</td>
-            <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-            <td>C++ programming</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </td>
-       </table>
-       <td><table cellspacing="10">
-       <tr>
-        <td>sports</td>
-        <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-        <td>Photography</td>
-        <td>⭐⭐⭐⭐⭐</td>
 
-      </tr>
-    </td>
-      </table>
-    </tr>
-       </table>
-    </body>
-  </center>
-</html> 
+      <div id="qual">
+        <h2>QUALIFICATIONS</h2>
+        <table id="de">
+          <th>EDUCATIONAL QUALIFICATION</th>
+          <th>INSTITUTION</th>
+          <th>UNIVERSITYAND BOARD</th>
+          <th>YOP</th>
+          <th>PERCENTAGE / CGPA</th>
+          <tr>
+            <td>Computer Science and Engineering </td>
+            <td>K.S.Rangasamy College of Technology (Autonomous) Tiruchengode</td>
+            <td>Anna University Chennai</td>
+            <td>May 2023</td>
+            <td> 8.7 CGPA(up to 4rd Sem) </td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td>Malco vidyalaya matriculation higher secondary school, Mettur Dam – 2.</td>
+            <td>Tamil Nadu State Board</td>
+            <td> May 2021 </td>
+            <td> 85% </td>
+
+          </tr>
+          <tr>
+            <td>SSLC </td>
+            <td>Malco vidyalaya matriculation higher secondary school, Mettur Dam – 2.</td>
+            <td>Tamil Nadu State Board</td>
+            <td> May 2019 </td>
+            <td> 87.09% </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <hr size="1" noshade>
+                <div>
+                    <h2>SKILL SETS</h2>
+                    <ul>
+                    <li>Programming Languages: Java, HTML, CSS, JavaScript, PHP</li>
+                    <li>Query Language: SQL</li>
+                    <li>Software Proficiency: Microsoft Office (Word, Excel, PowerPoint)</li>
+                    <li>Frameworks/Libraries: React.js</li>
+                    </ul>
+                </div>
+
+      <hr size="1" noshade><br>
+            <div>
+                <h2>AREAS OF INTEREST</h2>
+                <ul>
+                <li>Full Stack Development</li>
+                <li>Testing and Debugging</li>
+                <li>Software Development</li>
+                </ul>
+            </div>
+
+  
+                <div>
+                    <h2>AWARDS AND ACHIEVEMENTS</h2>
+                    <ul>
+                    <li>Completed "Programming in Java" with an Elite certificate from NPTEL.</li>
+                    <li>Successfully finished "MySQL Basics" course at Great Learning.</li>
+                    <li>Completed an online internship focused on "Internet of Things (IoT)" at Emertxe.</li>
+                    <li>Developed and launched an online footwear shop as a web development project.</li>
+                    <li>Contributed to the development of an HR portal during an internship at Calanjiyam Consultancy.</li>
+                    </ul>
+                </div>
+
+                </div>
+
+  </div>
+</body>
+
+
+</html>
